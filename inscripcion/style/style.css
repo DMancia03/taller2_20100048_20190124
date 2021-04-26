@@ -1,7 +1,26 @@
 #form{
     grid-column: 2/4;
-    
+    padding: 1em;
 }
 form>fieldset>div{
     padding: 0.5em 1em;
+}
+.input{
+    display: block;
+    width: 90%;
+    font-size: 14px;
+    padding: 0.1em;
+}
+.btn{   
+    display: block;
+   margin: 1em auto;
+   padding: 0.8em;
+   border: #2D89DB solid 2px;
+   background-color: #ffffff;
+   color: #2D89DB;
+}
+.btn:hover{
+    border: #2D89DB solid 2px;
+    background-color: #2D89DB;
+    color: #ffffff;
 }
