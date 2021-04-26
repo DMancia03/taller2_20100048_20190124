@@ -135,29 +135,28 @@
             <h1 class="titulo-1">- GALARDONES -</h1>
         </div>
         <div class="row-2">
-            <div class="contenedor-galardon">
-                <ol class="">
-                    <li class="margin-2 contenedor-oro">Ganadores de oro
-                        <ol class="lista-letras">
-                            <li>Carlos Armando Quintero López</li>
-                            <li>Erwin René Quintanilla Palma</li>
-                        </ol>
-                    </li>
-                    <li class="margin-2 contenedor-plata">Ganadores de Plata
-                        <ol class="lista-letras">
-                            <li>Alfreddo Alexander Ramírez Castañeda</li>
-                            <li>Esteban Carcamo Alas</li>
-                        </ol>
-                    </li>
-                    <li class="margin-2 contenedor-bronce">Ganadores de Bronce
-                        <ol class="lista-letras">
-                            <li>Ana Marcela Bueno Palacias</li>
-                            <li>
-                                María Ester Olivo Cañas
-                            </li>
-                        </ol>
-                    </li>
-                </ol>
+            <div class="contenedor-galardon margin-2 acordeon">
+                <div class="acordeon_item">
+                    <label for="acordeon-1" class="acordeon_titulo contenedor-oro">Ganadores de Oro</label><input type="checkbox" name="acordeon-1" id="acordeon-1">
+                    <ol class="acordeon_contenido lista-letras contenedor-oro">
+                        <li>Carlos Armando Quintero López</li>
+                        <li>Erwin René Quintanilla Palma</li>
+                    </ol>
+                </div>
+                <div class="acordeon_item">
+                    <label for="acordeon-2" class="acordeon_titulo contenedor-plata">Ganadores de Plata</label><input type="checkbox" name="acordeon-2" id="acordeon-2">
+                    <ol class="acordeon_contenido lista-letras contenedor-plata">
+                        <li>Alfreddo Alexander Ramírez Castañeda</li>
+                        <li>Esteban Carcamo Alas</li>
+                    </ol>
+                </div>
+                <div class="acordeon_item">
+                    <input type="checkbox" name="acordeon-3" id="acordeon-3"><label for="acordeon-3" class="acordeon_titulo contenedor-bronce">Ganadores de Bronce</label>
+                    <ol class="acordeon_contenido lista-letras contenedor-bronce">
+                        <li>Ana Marcela Bueno Palacias</li>
+                        <li>María Ester Olivo Cañas</li>
+                    </ol>
+                </div>
             </div>
             <div>
                 <img src="img/galardones.jpg" alt="Oro, plata y bronce" class="img-1">

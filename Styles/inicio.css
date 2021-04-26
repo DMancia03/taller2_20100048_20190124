@@ -85,23 +85,68 @@ td{
 }
 
 .contenedor-oro{
-    color: #665200;
-    font-weight: bold;
+    background-color: #BF9900;
+}
+
+.contenedor-oro:hover{
+    background-color: #665200;
 }
 
 .contenedor-plata{
-    color: #737373;
-    font-weight: bold;
+    background-color: #8C8C8C;
+}
+
+.contenedor-plata:hover{
+    background-color: #666666;
 }
 
 .contenedor-bronce{
-    color: #8C5E35;
-    font-weight: bold;
+    background-color: #8C5E35;
+}
+
+.contenedor-bronce:hover{
+    background-color: #593B02;
 }
 
 .lista-letras{
     list-style: lower-alpha;
-    margin: 2em;
+}
+
+input{
+    display: none;
+}
+
+.acordeon_item:first-child label{
+    border-radius: 10px 10px 0 0;
+}
+
+.acordeon_item:last-child label{
+    border-radius: 0 0 10px 10px;
+    transition: 500ms;
+}
+
+.acordeon_titulo{
+    padding: 2em;
+    display: block;
+    color: #eeebdd;
+}
+
+.acordeon_contenido{
+    height: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: 500ms;
+}
+
+.acordeon input:checked ~ .acordeon_contenido{
+    height: auto;
+    padding: 2em;
+    transition: 500ms;
+}
+
+.acordeon_item:last-child>input:checked ~ label{
+    border-radius: 0px;
+    transition: 500ms;
 }
 
 /*Responsive*/

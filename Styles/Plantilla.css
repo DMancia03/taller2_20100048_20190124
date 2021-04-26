@@ -121,6 +121,10 @@ footer{
     padding: 2em;
 }
 
+.padding-1{
+    padding: 1em;
+}
+
 .row-2{
     display: grid;
     grid-template-columns: 1fr 1fr;
