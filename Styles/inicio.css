@@ -17,15 +17,30 @@
 
 /*Clases*/
 .contenedor-katanas{
-    background-color: #0C8B40;
+    background-color: #3C5973;
+    color: white;
+}
+
+.contenedor-katanas h2{
+    color: #0B232E;
 }
 
 .contenedor-marcial{
-    background-color: #2d89db;
+    background-color: #A61D00;
+    color: white;
+}
+
+.contenedor-marcial h2{
+    color: white;
 }
 
 .contenedor-defensa{
-    background-color: #F24738;
+    background-color: #0B232E;
+    color: white;
+}
+
+.contenedor-defensa h2{
+    color: #3C5973;
 }
 
 /*Alumnos*/
