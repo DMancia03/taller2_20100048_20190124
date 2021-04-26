@@ -85,3 +85,31 @@ footer{
 .redesSociales ul li a{
     color: black;
 }
+
+
+/*Responisve*/
+
+/*header*/
+@media(max-width: 900px){
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+    header ul{
+        justify-content: center;
+    }
+}
+
+@media(max-width: 700px){
+    header ul{
+        display: inline;
+        position: absolute;
+        background-color: white;
+        width: 100%;
+        left: 0;
+        
+    }
+    #btnmenu:checked~#menu{
+        margin-left: 0;
+    }
+}
