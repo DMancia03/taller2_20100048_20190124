@@ -108,6 +108,12 @@ footer{
     text-align: center;
 }
 
+.titulo-3{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
 .margin-2{
     margin: 2em;
 }

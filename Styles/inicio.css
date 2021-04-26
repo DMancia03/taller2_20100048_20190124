@@ -15,14 +15,45 @@
     max-height: 30%;
 }
 
+/*Clases*/
+.contenedor-katanas{
+    background-color: #0C8B40;
+}
+
+.contenedor-marcial{
+    background-color: #2d89db;
+}
+
+.contenedor-defensa{
+    background-color: #F24738;
+}
+
 /*Alumnos*/
 table{
     width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 table, thead, tr, th, td{
-    border: black solid 2px;
     border-collapse: collapse;
+}
+
+thead{
+    background-color: #08090D;
+    color: white;
+}
+
+tbody{
+    background-color: black;
+    color: white;
+}
+
+tbody>tr:nth-child(2n){
+    background-color: #1A1E26;
+}
+
+tbody>tr:nth-child(2n-1){
+    background-color: #343A40;
 }
 
 th, td{
@@ -34,6 +65,10 @@ td{
 }
 
 /*Galardones*/
+.contenedor-galardon{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .lista-letras{
     list-style: lower-alpha;
     margin: 2em;
@@ -42,6 +77,10 @@ td{
 /*Responsive*/
 @media(max-width: 600px){
     .contenedor-tabla{
-        overflow: scroll;
+        overflow-x: scroll;
+    }
+
+    table{
+        width: auto;
     }
 }
