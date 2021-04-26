@@ -52,8 +52,8 @@ header ul li:hover a{
 #lbMenu{
     font-size: 2em;
     position: absolute;
-    top: 2%;
-    left: 2%;
+    top: 1%;
+    left: 1%;
     display: none;
 }
 #icon{
