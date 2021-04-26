@@ -69,6 +69,21 @@ td{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.contenedor-oro{
+    color: #665200;
+    font-weight: bold;
+}
+
+.contenedor-plata{
+    color: #737373;
+    font-weight: bold;
+}
+
+.contenedor-bronce{
+    color: #8C5E35;
+    font-weight: bold;
+}
+
 .lista-letras{
     list-style: lower-alpha;
     margin: 2em;
