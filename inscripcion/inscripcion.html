@@ -6,9 +6,10 @@
     <meta name="description" content="Inscripción para los cursos de artes marciales">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiero inscribirme</title>
-    <link rel="icon" href="img/martial-arts.svg" type="image/x-icon">
+    <link rel="icon" href="../img/martial-arts.svg" type="image/x-icon">
     <link rel="stylesheet" href="../Styles/Plantilla.css">
     <link rel="stylesheet" href="../Styles/icons/style.css">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
     <header>
@@ -20,7 +21,7 @@
             <label  id="lbMenu"for="btnmenu"><span class="icon-menu"></span></label>
             <input type="checkbox" name="" id="btnmenu">
             <ul id="menu">
-                <li><a href="">Incio</a></li>
+                <li><a href="../index.html">Incio</a></li>
                 <li><a href="">El Club</a></li>
                 <li><a href="">Actividades</a></li>
                 <li><a href="">Torneo</a></li>
@@ -31,10 +32,10 @@
     </header>
 
     <!--Desasrrollo-->
-    <article>
-        <h1>-Inscripción-</h1>
-        <section>
-            <div id="txt">
+    <article class="">
+        <h1 class="titulo-1">-Inscripción-</h1>
+        <section class="row-3 padding-2">
+            <div id="txt" class="parrafo-1">
                 <h4>¡Nuestras enseñanzas son la vida!</h4>
                 <p>
                     En nuestra escuela podrás aprender distintas disciplinas
@@ -52,6 +53,67 @@
                     grupos y enviarte la información necesariam como los horarios de las clases.
                 </p>
                 <p>¡Se la mejor versión de ti mismo!</p>
+            </div>
+            <div id="form" class="">
+                <form action="" >
+                    <fieldset>
+                        <legend>Datos personales</legend>
+                        <div class="">
+                            <label for="txtNombres">Nombres</label>
+                            <input type="text" name="" id="txtNombres" class="input" placeholder="Ingrese su nombre" maxlength="30" pattern="^\w{30}$" required>
+                        </div>
+                        <div class="">
+                            <label for="txtApellidos">Apellidos</label>
+                            <input type="text" name="" id="txtApellidos" placeholder="Ingrese sus apellidos"   maxlength="30" pattern="^\w{30}$" class="input"required>
+                        </div>
+                        <div class="">
+                            <label for="calendar">Fecha de nacimiento</label>
+                            <input type="date" name="" id="calendar" class="input" required>
+                        </div>
+                        <div class="">
+                            <label for="Edad">Edad:</label>
+                            <input type="number" name="" id="txtedad" class="input" placeholder="Ingrese su edad" required>
+                        </div>
+                        <div class="">
+                            <p>Género:</p>
+                            <label for="rdbM">Masculino</label>
+                            <input type="radio" name="rdbGenero" id="rdbM" required>
+                            <label for="rdbF">Femeino</label>
+                            <input type="radio" name="rdbGenero" id="rdbF" required>
+                        </div>
+                        <div class="">
+                            <label for="txtemail">Correo electrónico:</label>
+                            <div class="inputgroup input">
+                                <span class="">@</span>
+                                <input type="email" name="" id="txtemail" placeholder="Ingrese su correo" required>
+                            </div>
+                        </div>
+                        <div class="">
+                            <label for="opDepartamento">Departamento:</label>
+                            <select name="" class="input" id="opDepartamento" required>
+                                <option value="">Ahuachapán</option>
+                                <option value="">Cabañas</option>
+                                <option value="">Chalatenango</option>
+                                <option value="">Cuscatlán</option>
+                                <option value="">La Libertad</option>
+                                <option value="">La Paz</option>
+                                <option value="">La Unión</option>
+                                <option value="">Morazán</option>
+                                <option value="">San Miguel</option>
+                                <option value="">San Salvador</option>
+                                <option value="">San Vicente</option>
+                                <option value="">Santa Ana</option>
+                                <option value="">Sonsonate</option>
+                                <option value="">Usulután</option>
+                            </select>
+                        </div>
+                        <div class="">
+                            <label for="txtDomicilio">Domicilio:</label>
+                            <textarea name="" id="txtDomicilio" cols="30" rows="10" required class="input"></textarea>
+                        </div>
+                        <input type="submit" class="btn" value="Ingresar">
+                    </fieldset>
+                </form>
             </div>
         </section>
     </article>
