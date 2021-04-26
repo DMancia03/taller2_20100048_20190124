@@ -1,0 +1,10 @@
+.img-2{
+    display: block;
+    margin: auto;
+    max-width: 50%;
+    height: auto;
+}
+
+div{
+    border: black 1px solid;
+}

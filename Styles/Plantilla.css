@@ -128,6 +128,15 @@ footer{
     height: auto;
 }
 
+.parrafo-1{
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
 /*Responisve*/
 
 /*header*/
