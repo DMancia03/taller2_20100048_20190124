@@ -137,6 +137,12 @@ footer{
     font-weight: bold;
 }
 
+.cita-1{
+    text-align: center;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /*Responisve*/
 
 /*header*/
@@ -147,6 +153,11 @@ footer{
     }
     header ul{
         justify-content: center;
+    }
+
+    .row-3{
+        display: flex;
+        flex-direction: column;
     }
 }
 
