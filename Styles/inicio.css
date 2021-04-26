@@ -1,10 +1,39 @@
 .img-2{
     display: block;
     margin: auto;
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
+    max-height: 30%;
 }
 
-div{
-    border: black 1px solid;
+.img-3{
+    display: block;
+    margin: auto;
+    width: 80%;
+    max-width: 80%;
+    height: 30%;
+    max-height: 30%;
+}
+
+table{
+    width: 100%;
+}
+
+table, thead, tr, th, td{
+    border: black solid 2px;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 1em;
+}
+
+td{
+    text-align: center;
+}
+
+/*Galardones*/
+.lista-letras{
+    list-style: lower-alpha;
+    margin: 2em;
 }

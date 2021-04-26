@@ -116,10 +116,14 @@ footer{
     padding: 2em;
 }
 
+.row-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 .row-3{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 1%;
 }
 
 .img-1{
@@ -138,35 +142,12 @@ footer{
     font-weight: bold;
 }
 
-.input{
-    display: block;
-    width: 90%;
-    height: 25px;
+.cita-1{
+    text-align: center;
+    font-style: italic;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: black;
 }
-.inputgroup{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    border: solid black 1px;
-    border-radius: 3px;
-    background-color: rgb(206, 202, 202);
-}
-.inputgroup span{
-    padding: 0.5em;
-    color:black;
-}
-.inputgroup input{
-    height: 100%;
-    width: 100%;
-    border: none;
-    border-radius: 0 3px 3px 0;
-}
-.btn{
-    padding: 0.1em 1em;
-    
-}
+
 /*Responisve*/
 
 /*header*/
@@ -177,6 +158,11 @@ footer{
     }
     header ul{
         justify-content: center;
+    }
+
+    .row-3, .row-2{
+        display: flex;
+        flex-direction: column;
     }
 }
 
