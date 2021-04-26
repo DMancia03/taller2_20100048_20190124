@@ -46,6 +46,16 @@ header ul li:hover a{
     width: 30%;
     height: fit-content;
 }
+#btnmenu{
+    display: none;
+}
+#lbMenu{
+    font-size: 2em;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    display: none;
+}
 #icon{
     display: flex;
     font-size: 2em;
@@ -101,13 +111,19 @@ footer{
 }
 
 @media(max-width: 700px){
+    #lbMenu{
+        
+        display: block;
+        transition: 1s;
+    }
     header ul{
         display: inline;
         position: absolute;
         background-color: white;
         width: 100%;
         left: 0;
-        
+        margin-left: -100%;
+        transition: 1s;
     }
     #btnmenu:checked~#menu{
         margin-left: 0;
