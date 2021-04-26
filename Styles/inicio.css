@@ -15,6 +15,7 @@
     max-height: 30%;
 }
 
+/*Alumnos*/
 table{
     width: 100%;
 }
@@ -36,4 +37,11 @@ td{
 .lista-letras{
     list-style: lower-alpha;
     margin: 2em;
+}
+
+/*Responsive*/
+@media(max-width: 600px){
+    .contenedor-tabla{
+        overflow: scroll;
+    }
 }

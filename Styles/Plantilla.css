@@ -148,6 +148,10 @@ footer{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+div{
+    box-sizing: border-box;
+}
+
 /*Responisve*/
 
 /*header*/
@@ -163,6 +167,12 @@ footer{
     .row-3, .row-2{
         display: flex;
         flex-direction: column;
+    }
+
+    .video-1{
+        display: block;
+        max-width: 100%;
+        height: auto;
     }
 }
 
