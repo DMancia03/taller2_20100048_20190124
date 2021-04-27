@@ -94,6 +94,7 @@ footer{
 }
 .redesSociales ul li a{
     color: black;
+    text-decoration: none;
 }
 
 /*Clases*/
