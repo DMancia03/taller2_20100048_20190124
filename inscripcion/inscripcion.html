@@ -61,11 +61,11 @@
                         <legend>Datos personales</legend>
                         <div class="">
                             <label for="txtNombres">Nombres</label>
-                            <input type="text" name="" id="txtNombres" class="input" placeholder="Ingrese su nombre" maxlength="30" pattern="^\w$" required>
+                            <input type="text" name="" id="txtNombres" class="input" placeholder="Ingrese su nombre" maxlength="30" pattern="^\w{2-10} \w{2-10}$" required>
                         </div>
                         <div class="">
                             <label for="txtApellidos">Apellidos</label>
-                            <input type="text" name="" id="txtApellidos" placeholder="Ingrese sus apellidos"   maxlength="30" pattern="^\w{30}$" class="input"required>
+                            <input type="text" name="" id="txtApellidos" placeholder="Ingrese sus apellidos"   maxlength="30" pattern="^^\w{2-10} \w{2-10}$" class="input"required>
                         </div>
                         <div class="">
                             <label for="calendar">Fecha de nacimiento</label>
