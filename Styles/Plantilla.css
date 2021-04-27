@@ -160,7 +160,20 @@ footer{
 div{
     box-sizing: border-box;
 }
-
+.error{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 190%;
+    font-size: 4em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+small{
+    color: gray;
+    font-size: 0.6em;
+}
 /*Responisve*/
 
 /*header*/
