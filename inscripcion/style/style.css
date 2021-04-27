@@ -1,6 +1,11 @@
+
 #form{
+    background-color: white;
     grid-column: 2/4;
     padding: 1em;
+}
+iframe{
+    margin-top: 1%;
 }
 form>fieldset>div{
     padding: 0.5em 1em;
